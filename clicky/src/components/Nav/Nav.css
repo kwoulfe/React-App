@@ -1,6 +1,6 @@
-.navbar li {
-  display: inline-block;
-  padding: 26px 0;
-  width: 33.3%;
-  text-align: center;
+.headerStyle {
+  /* background: rgb(146, 201, 220); */
+  margin-bottom: 0;
+  padding: 20px;
+  color: black;
 }

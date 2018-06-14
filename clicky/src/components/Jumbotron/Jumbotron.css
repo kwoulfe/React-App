@@ -1,4 +1,6 @@
-/* .jumbotron {
-  min-height: 300px;
-  padding-top: 100px;
-} */
+.jumboStyle {
+  color: black;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
