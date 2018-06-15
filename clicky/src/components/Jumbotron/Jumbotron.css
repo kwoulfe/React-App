@@ -1,6 +1,11 @@
-.jumboStyle {
-  color: black;
-  background-color: white;
-  text-align: center;
-  margin-bottom: 0;
+.wrapper {
+  padding-top: 50px;
+  background: #eceff1;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
 }

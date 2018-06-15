@@ -1,18 +1,26 @@
-.image {
-  /* height: 305px; */
-  width: 245px;
-  margin: 10px 30px 10px 50px;
-  cursor: pointer;
-  display: inline-flex;
+.card {
+  background: #fff;
+  border-radius: 2px;
+  height: 250px;
+  margin: 1rem;
   position: relative;
-  left: 43px;
+  width: 325px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
 }
 
-.image_top {
-  height: 220px;
-}
-.bobImage {
-  width: 100%;
+.card > .img-container {
   height: 100%;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  overflow: hidden;
+  text-align: center;
+  background: #6caddc;
+}
+.card > .img-container > img {
+  width: 60%;
+}
+
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
 }
