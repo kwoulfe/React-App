@@ -1,8 +1,7 @@
 import React from 'react';
-import images from './images.json';
-import './images.css';
+import './Card.css';
 
-const Images = props => (
+const Card = props => (
   <div className="card" onClick={() => props.clickCount(props.id)}>
     <div className="img-container">
       <img alt={props.name} src={props.image} />
@@ -10,4 +9,4 @@ const Images = props => (
   </div>
 );
 
-export default Images;
+export default Card;
